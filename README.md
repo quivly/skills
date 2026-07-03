@@ -1,8 +1,18 @@
+<p align="center">
+  <img src="assets/banner.jpg" alt="Quivly Skills" width="100%">
+</p>
+
 # Quivly Skills
 
-Production-ready [Agent Skills](https://agentskills.io) for Customer Engineering, Post-Sales, and Customer Success teams.
+**Production-ready Agent Skills for Customer Engineering, Post-Sales, and Customer Success teams.**
 
-These skills package proven workflows, playbooks, and domain expertise so AI agents can reliably handle customer engineering tasks with consistency and precision.
+Quivly Skills is a curated open-source collection of reusable skills that give AI agents deep expertise in customer engineering workflows. Every skill follows the official [Agent Skills specification](https://agentskills.io/specification).
+
+**Topics:** `agent-skills` `ai-agents` `customer-success` `post-sales` `customer-engineering` `anthropic` `claude` `skills` `ai-workflows`
+
+## About
+
+This repository provides production-ready skills focused on real customer engineering and post-sales use cases, including health reviews, expansion playbooks, churn risk detection, QBR preparation, and technical workflows.
 
 ## Why Quivly Skills?
 
@@ -36,7 +46,6 @@ See the [Agent Skills documentation](https://agentskills.io) for client-specific
 ## Repository Structure
 
 ```
-skills/
 ├── customer-success/     # Health scoring, churn signals, QBRs
 ├── expansion/            # Playbooks for growth and upsell
 ├── technical-onboarding/ # Implementation and technical workflows
