@@ -1,0 +1,101 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# JavaScript / TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
+credentials.json
+
+# Logs and temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.temp
+.cache/
+tmp/
+
+# Test / coverage
+coverage/
+.nyc_output/
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Build and generated
+dist/
+build/
+out/
+*.min.js
+*.min.css
+
+# Agent / skill specific (if any tools generate these)
+.claude/
+.cursor/
+.codex/
+*.skillpack
+
+# Misc
+*.bak
+*.orig
+*.rej
+*.patch
+*.diff
