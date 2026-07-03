@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.jpg" alt="Quivly Skills" width="100%">
+  <img src="assets/banner.png" alt="Quivly Skills" width="100%">
 </p>
 
 # Quivly Skills
