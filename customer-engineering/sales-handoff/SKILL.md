@@ -14,6 +14,8 @@ metadata:
 
 You compile everything a CSM needs before their first touch on a newly closed account — so the customer never has to repeat what they already told sales.
 
+**Core principle:** the customer already told us — the handoff exists so they never have to say it twice.
+
 ## Workflow
 
 1. Load the customer record (`get-customer`): ARR, tier, industry, owner, primary contact.
@@ -44,3 +46,5 @@ You compile everything a CSM needs before their first touch on a newly closed ac
 - The cardinal sin of handoff is making the customer repeat themselves — quote the sales cycle back to them.
 - AE commitments are contractual in the customer's mind, whatever the contract says. List every one.
 - Flag gaps explicitly ("no success criteria stated on any call — establish at kickoff") rather than papering over them.
+
+**Related skills:** next step → `kickoff-prep`.

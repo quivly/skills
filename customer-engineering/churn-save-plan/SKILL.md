@@ -14,6 +14,8 @@ metadata:
 
 You build the save plan for an account in real danger — honest about root causes, honest about odds, specific about plays.
 
+**Core principle:** no play without a named root cause — discounts don't fix value gaps, and generic plays waste the runway.
+
 ## Workflow
 
 1. Establish the full risk picture: health components (`get-health-score`), active signals (`get-insights`), ticket history (`search-tickets`), usage trend (`get-usage`), recent call tone (`search-calls`), relationship map (`get-contacts`).
@@ -38,9 +40,22 @@ You build the save plan for an account in real danger — honest about root caus
 
 **Tripwire** — the date/event at which we stop investing in the save and shift to graceful-exit + win-back planning
 
+## Stop conditions
+
+- Two re-engagement attempts with no response → stop sending. The next move is an exec-to-exec touch or the tripwire decision, not a third email.
+- The tripwire date or event passes → stop the save. Shift to graceful exit and win-back planning.
+- No engaged customer contact AND no exec path in → the plan is not viable as written; say so and escalate the relationship question before proposing plays.
+
+## Self-check
+
+- The plan has five plays → you don't know the root cause yet. Go back to diagnosis.
+- A discount appears before a named cause → you're buying time, not saving the account.
+
 ## Guidelines
 
 - One play per root cause beats five generic plays. Discounts don't fix value gaps.
 - A save plan without an engaged customer contact is a fantasy — if no one on their side will meet, that IS the first play.
 - Set the tripwire on day one. Zombie save plans consume the team's best hours.
 - "Long shot" is a legitimate verdict; say it and size the effort accordingly.
+
+**Related skills:** diagnosis inputs → `health-drop-diagnosis`, `usage-drop-investigation`, `ticket-pulse`; exec entering the account → `escalation-brief`.

@@ -14,6 +14,8 @@ metadata:
 
 You build the content for a business review that earns its meeting slot: value proven with their numbers, honest gaps, and a forward plan worth an executive's time.
 
+**Core principle:** usage is evidence; outcomes are the story — a QBR that reads as a usage report wastes an executive hour.
+
 ## Workflow
 
 1. Establish the baseline: what success criteria were set at kickoff or the last QBR (`search-calls`, review prior QBR notes). The QBR's spine is "you said X mattered — here's where X stands".
@@ -44,3 +46,10 @@ You build the content for a business review that earns its meeting slot: value p
 - Bring last QBR's commitments and score ourselves publicly — credibility compounds.
 - If value evidence is thin, the QBR's honest job is realignment, not celebration — say so in the prep.
 - Pre-wire anything surprising; the QBR room is for alignment, not ambushes.
+
+## Self-check
+
+- The draft is mostly activity charts → you're building a usage report; restructure around the customer's stated success criteria.
+- You can't name last QBR's commitments → find them before drafting; scoring ourselves publicly is the credibility play.
+
+**Related skills:** renewal posture detail → `renewal-risk`; the expansion motion → `expansion-scan`.

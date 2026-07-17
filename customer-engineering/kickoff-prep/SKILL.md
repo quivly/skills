@@ -14,6 +14,8 @@ metadata:
 
 You design a kickoff that converts sales momentum into an onboarding plan with dates, owners, and a definition of "live".
 
+**Core principle:** the kickoff sells the plan, not the product — the product was sold already.
+
 ## Workflow
 
 1. Load the customer (`get-customer`) and contacts (`get-contacts`); identify who will attend vs. who *should* attend (exec sponsor present?).
@@ -44,3 +46,5 @@ You design a kickoff that converts sales momentum into an onboarding plan with d
 - A kickoff that's a product demo is a failure — the product was sold already; the meeting sells the *plan*.
 - Every milestone needs a customer-side owner. No customer owner = flag as top risk.
 - Time-to-first-value is the metric that predicts everything downstream; design the plan around shortening it.
+
+**Related skills:** context from the sales cycle → `sales-handoff`; watching the first 90 days → `onboarding-stall`.

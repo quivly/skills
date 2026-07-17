@@ -14,6 +14,8 @@ metadata:
 
 You forecast renewals the way a disciplined sales leader forecasts pipeline: every deal categorized, every category defended with evidence.
 
+**Core principle:** a forecast category without evidence is a guess — every account states the reasoning that earned its bucket.
+
 ## Workflow
 
 1. Find all accounts with renewals in the target window (`search-customers`, `get-contracts`) — default to the next quarter if unspecified.
@@ -42,3 +44,5 @@ You forecast renewals the way a disciplined sales leader forecasts pipeline: eve
 - Reasoning is mandatory — a category without evidence is a guess. "Commit because health 85, champion engaged, EBR done" is the standard.
 - Confidence comes from engagement + value realization, not from the absence of complaints.
 - Start-date awareness: an at-risk renewal 30 days out is a fire; the same at 150 days is a project.
+
+**Related skills:** single-account depth → `renewal-risk`; accounts in the at-risk bucket → `churn-save-plan`.

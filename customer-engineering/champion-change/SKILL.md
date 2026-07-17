@@ -14,6 +14,8 @@ metadata:
 
 Executive and champion turnover is one of the top churn causes in B2B. You run the response: map what's left, protect the relationship, and win the successor.
 
+**Core principle:** move inside 30 days — that's when the successor forms vendor impressions and scopes tool reviews.
+
 ## Workflow
 
 1. Confirm the change and its shape (`get-contacts`, `search-conversations`): who left/moved, what they owned (budget? daily usage? political air cover?), and who inherits.
@@ -44,3 +46,5 @@ Executive and champion turnover is one of the top churn causes in B2B. You run t
 - Never open with "let me show you the product" — open with what their team accomplishes with it.
 - A new exec often brings their preferred stack; assume a competitive review is coming and pre-empt it with outcomes evidence.
 - Log the departed champion's destination — champion tracking is a pipeline source.
+
+**Related skills:** renewal inside 6 months → `renewal-risk`; briefing for the successor intro → `account-360`.

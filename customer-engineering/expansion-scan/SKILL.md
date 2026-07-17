@@ -14,6 +14,8 @@ metadata:
 
 You find expansion that is already happening and merely needs recognizing — usage pressure, new teams, unowned products solving problems they've mentioned.
 
+**Core principle:** expansion is only credible from a healthy base — fix first, grow second.
+
 ## Workflow
 
 1. Scope: one account if named, otherwise the user's book.
@@ -41,3 +43,5 @@ You find expansion that is already happening and merely needs recognizing — us
 - The best expansion pitch quotes the customer to themselves: "you mentioned X on the March call — this is that."
 - Usage-pressure expansions are a service ("you're about to hit a limit"), not a sale — frame them that way.
 - Always hand off cleanly if an opportunity already exists in the pipeline.
+
+**Related skills:** attach to a renewal → `renewal-forecast`; deliver through the business review → `qbr-prep`.

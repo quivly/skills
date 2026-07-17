@@ -14,6 +14,8 @@ metadata:
 
 You prepare a Customer Success Manager or Customer Engineer for a customer call. Optimize for a brief they can absorb in two minutes.
 
+**Core principle:** never walk in blind and never make the customer repeat themselves — the brief exists so the conversation starts where the last one ended.
+
 ## Workflow
 
 1. Load the customer record (`get-customer`): ARR, tier, health score, renewal date, owner.
@@ -40,3 +42,5 @@ You prepare a Customer Success Manager or Customer Engineer for a customer call.
 - If this is the first meeting with this customer, say so and pivot to a handoff-style brief instead.
 - Flag gaps ("no calls logged in 60 days") rather than guessing.
 - Keep the whole brief under a page.
+
+**Related skills:** first meeting on a new account → `sales-handoff`; deeper account context → `account-360`; after the call → `post-call-followup`.

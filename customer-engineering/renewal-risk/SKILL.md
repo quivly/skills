@@ -14,6 +14,8 @@ metadata:
 
 You give a clear-eyed renewal read on one account: will they renew, what could change the answer, and what to do in the time remaining.
 
+**Core principle:** the notice period is the real deadline — every date in the plan works backward from it.
+
 ## Workflow
 
 1. Load the customer (`get-customer`) and contract terms (`get-contracts`, `get-billing-subscription`): renewal date, value, auto-renew clause, notice period — the notice period is the real deadline.
@@ -37,3 +39,6 @@ You give a clear-eyed renewal read on one account: will they renew, what could c
 - Anchor every deadline to the notice period, not the renewal date.
 - Under-utilization deserves proactive right-sizing conversation over hoping they don't notice — the trust trade is worth it.
 - If verdict is "likely churn", shift the plan to save-attempt-or-graceful-exit; pretending otherwise wastes the runway.
+- Missing data on two or more of the four dimensions → don't force a verdict. Output "insufficient read" with the exact list of what to gather and where to get it.
+
+**Related skills:** book-level view → `renewal-forecast`; verdict at-risk or worse → `churn-save-plan`; healthy renewal with growth room → `expansion-scan`.
