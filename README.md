@@ -51,7 +51,37 @@ See the [Agent Skills documentation](https://agentskills.io) for client-specific
 └── template/              # Starter template for new skills
 ```
 
-Each skill is a self-contained folder with a `SKILL.md` file. See [customer-engineering/README.md](customer-engineering/README.md) for the full catalog organized by usage tier (daily drivers → weekly rhythms → lifecycle-triggered → quarterly/growth).
+Each skill is a self-contained folder with a `SKILL.md` file.
+
+## Skill Catalog
+
+21 production-ready Agent Skills for customer success, customer engineering, and post-sales AI workflows — meeting prep, QBR preparation, churn risk, renewal forecasting, onboarding, escalations, and expansion. Organized by how often teams reach for them.
+
+| Skill | What it does | Tier |
+|-------|--------------|------|
+| [meeting-prep](customer-engineering/meeting-prep/SKILL.md) | Pre-call brief for any customer meeting: recent conversations, open tickets, usage changes, suggested talking points | Daily |
+| [account-360](customer-engineering/account-360/SKILL.md) | Full account snapshot on demand: profile, health, revenue, stakeholders, risks | Daily |
+| [post-call-followup](customer-engineering/post-call-followup/SKILL.md) | Turn the latest call into owned action items, commitments, and a draft recap message | Daily |
+| [ticket-pulse](customer-engineering/ticket-pulse/SKILL.md) | Support health read: aging tickets, recurring themes, escalation candidates | Daily |
+| [inbox-triage](customer-engineering/inbox-triage/SKILL.md) | "What needs my attention today" across a book of business, ranked by urgency | Daily |
+| [portfolio-digest](customer-engineering/portfolio-digest/SKILL.md) | Weekly book-of-business review: health movers, usage droppers, renewals inside 90 days | Weekly |
+| [usage-drop-investigation](customer-engineering/usage-drop-investigation/SKILL.md) | Diagnose why product usage fell — pattern-matched root cause before any outreach | Weekly |
+| [health-drop-diagnosis](customer-engineering/health-drop-diagnosis/SKILL.md) | Decompose a health score drop into moving components and the real-world events behind them | Weekly |
+| [at-risk-report](customer-engineering/at-risk-report/SKILL.md) | Leadership roll-up of at-risk accounts: ARR exposure, risk drivers, named plays | Weekly |
+| [renewal-forecast](customer-engineering/renewal-forecast/SKILL.md) | Next quarter's renewals with per-account confidence categories and reasoning | Weekly |
+| [sales-handoff](customer-engineering/sales-handoff/SKILL.md) | Deal-close handoff brief: deal context, contacts, AE commitments, first-touch agenda | Lifecycle |
+| [kickoff-prep](customer-engineering/kickoff-prep/SKILL.md) | Onboarding kickoff design: agenda, stakeholder map, milestone plan, success criteria | Lifecycle |
+| [onboarding-stall](customer-engineering/onboarding-stall/SKILL.md) | Time-to-value check for new accounts — locate exactly where onboarding is stuck | Lifecycle |
+| [renewal-risk](customer-engineering/renewal-risk/SKILL.md) | 60–90 day renewal read across value, usage, relationship, and commercial posture | Lifecycle |
+| [churn-save-plan](customer-engineering/churn-save-plan/SKILL.md) | Root-caused save plan for a red account, with stop conditions and a tripwire | Lifecycle |
+| [champion-change](customer-engineering/champion-change/SKILL.md) | Respond to a champion or sponsor departure: exposure map, value-story transfer, successor plan | Lifecycle |
+| [escalation-brief](customer-engineering/escalation-brief/SKILL.md) | Executive escalation one-pager: timeline, stakes, temperature, talking points | Lifecycle |
+| [customer-health-review](customer-engineering/customer-health-review/SKILL.md) | Full structured customer health review with scoring dimensions and action plan | Lifecycle |
+| [qbr-prep](customer-engineering/qbr-prep/SKILL.md) | QBR / EBR preparation: value story with evidence, honest gaps, forward plan, renewal positioning | Quarterly |
+| [expansion-scan](customer-engineering/expansion-scan/SKILL.md) | Upsell and cross-sell signals: usage pressure, whitespace, buying language in calls | Quarterly |
+| [advocacy-finder](customer-engineering/advocacy-finder/SKILL.md) | Reference and case-study candidates matched to the advocacy ask they'd say yes to | Quarterly |
+
+Skills cross-reference each other via a **Related skills** footer (e.g. a health drop routes to `health-drop-diagnosis`, which escalates to `churn-save-plan`), so they compose into full workflows.
 
 ## How tool compatibility works
 
