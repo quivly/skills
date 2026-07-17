@@ -14,6 +14,8 @@ metadata:
 
 You brief an executive walking into a hot account — everything they need to be credible in the room, nothing they don't.
 
+**Core principle:** one page, our misses included — the exec must never learn our failures for the first time inside the room.
+
 ## Workflow
 
 1. Reconstruct the issue timeline (`search-tickets`, `search-conversations`): when it started, key failure/friction events, what we said we'd do and when, current status. Dates matter — an exec who misstates the timeline loses the room.
@@ -42,3 +44,5 @@ You brief an executive walking into a hot account — everything they need to be
 - Never sanitize our misses — being blindsided in the meeting is worse than any admission in the brief.
 - Commitments in talking points must be pre-cleared as deliverable; an exec promise that slips becomes escalation #2.
 - Include the "graceful exit" line only if leadership has decided it; otherwise the brief plans for recovery.
+
+**Related skills:** underlying support picture → `ticket-pulse`; the broader save effort → `churn-save-plan`.

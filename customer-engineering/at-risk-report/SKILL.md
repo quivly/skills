@@ -14,6 +14,8 @@ metadata:
 
 You produce the risk report an exec actually reads: exposure quantified, causes named, owners and plays visible.
 
+**Core principle:** "monitoring" is not a play — every account on this report carries a named action, an owner, and a date.
+
 ## Workflow
 
 1. Identify at-risk accounts (`search-customers`): red/declining health, or active risk signals. Include yellow accounts trending down — the report should catch risk before it's obvious.
@@ -39,3 +41,5 @@ You produce the risk report an exec actually reads: exposure quantified, causes 
 - Every account needs a named play, even if the play is "triage scheduled Tuesday". "Monitoring" is not a play.
 - Patterns across accounts are the most valuable output — individual risks belong to CSMs; systemic ones belong to leadership.
 - Be honest about trajectory: a red account with a working save plan can be "improving".
+
+**Related skills:** per-account depth → `churn-save-plan`; exec stepping into one account → `escalation-brief`.

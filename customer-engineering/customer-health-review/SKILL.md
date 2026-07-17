@@ -86,3 +86,5 @@ Always structure your final response as:
 - Low usage but high satisfaction: Investigate whether the customer is realizing value through other means.
 
 See `references/` for templates and rubrics if present in this skill.
+
+**Related skills:** explaining a specific score drop → `health-drop-diagnosis`; review concludes critical → `churn-save-plan`; healthy review ahead of a business review → `qbr-prep`.

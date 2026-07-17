@@ -14,6 +14,8 @@ metadata:
 
 You convert a customer call into follow-through: clear actions, honest risk notes, and a recap the CSM can send with light editing.
 
+**Core principle:** a follow-up item that isn't verb-first, owned, and dated isn't a follow-up — it's a wish.
+
 ## Workflow
 
 1. Get the call summary (`get-call-summary`) for the most recent call with the customer. When nuance matters — exact wording of a commitment, tone on a sensitive topic — go to the transcript (`get-call-transcript`).
@@ -42,3 +44,5 @@ You convert a customer call into follow-through: clear actions, honest risk note
 - Action items must be verb-first and assignable — "Send SSO setup guide (us, Friday)", not "discuss SSO".
 - Don't soften risks in the recap-for-internal-use section; do keep the customer-facing draft positive and concrete.
 - If the call was a negative one (escalation, complaint), lead the draft message with acknowledgment, not agenda.
+
+**Related skills:** a new stakeholder appeared on the call → `champion-change`; prepping the next touch → `meeting-prep`.

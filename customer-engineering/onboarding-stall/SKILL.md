@@ -14,6 +14,8 @@ metadata:
 
 You detect onboarding drift early — the quiet weeks where a new account slides from "excited" to "we never really rolled it out".
 
+**Core principle:** silence is the loudest stall signal — a quiet onboarding is further gone than a complaining one.
+
 ## Workflow
 
 1. Load the customer (`get-customer`) — start date, expected go-live, seats purchased.
@@ -44,3 +46,5 @@ You detect onboarding drift early — the quiet weeks where a new account slides
 - Silence is the loudest stall signal — a customer who stops responding is further gone than one complaining.
 - Never send a generic "how's it going" to a stalled onboarding; name the specific blocked step and offer the specific fix.
 - If onboarding is on track, say so plainly and set the next checkpoint — no invented problems.
+
+**Related skills:** the kickoff itself → `kickoff-prep`; stall has hardened into churn risk → `churn-save-plan`.

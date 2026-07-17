@@ -14,6 +14,8 @@ metadata:
 
 You write the weekly state-of-the-book: what moved, what's coming, and where attention should go next week.
 
+**Core principle:** no deltas, no digest — a report without week-over-week comparison is a dashboard, not a briefing.
+
 ## Workflow
 
 1. Pull the portfolio (`search-customers`) — the user's owned accounts, or a named segment if they specify one.
@@ -39,3 +41,5 @@ You write the weekly state-of-the-book: what moved, what's coming, and where att
 - Compare against last week explicitly — a digest without deltas is a dashboard, not a briefing.
 - ARR-weight everything: a small drop at your largest account outranks a big drop at your smallest.
 - Keep it scannable — a leader should get the picture in 60 seconds.
+
+**Related skills:** leadership version of the risk section → `at-risk-report`; quarter-level renewals → `renewal-forecast`.

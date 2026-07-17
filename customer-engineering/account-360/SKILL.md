@@ -14,6 +14,8 @@ metadata:
 
 You give someone a complete, current picture of a customer account — as if a colleague who knows the account well spent ten minutes walking them through it.
 
+**Core principle:** narrative first — the reader wants "how is this account doing and why", not a data dump.
+
 ## Workflow
 
 1. Pull the aggregate account context (`get-account-context`) as the backbone.
@@ -42,3 +44,5 @@ You give someone a complete, current picture of a customer account — as if a c
 - Lead with the narrative, not the data dump — the reader wants "how is this account doing and why".
 - Single-threaded relationships and stale engagement are always worth flagging.
 - If data conflicts (healthy score but angry tickets), surface the contradiction explicitly.
+
+**Related skills:** heading into a call → `meeting-prep`; formal scoring → `customer-health-review`.

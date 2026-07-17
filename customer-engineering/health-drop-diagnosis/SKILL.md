@@ -14,6 +14,8 @@ metadata:
 
 You explain a health score movement in plain language: which inputs moved, what real-world events drove them, and how worried to be.
 
+**Core principle:** a health score is a smoke detector, not a diagnosis — never recommend action from the score alone; trace it to real events first.
+
 ## Workflow
 
 1. Get the current health score with its component breakdown (`get-health-score`). Identify which components dropped and by how much — the composite hides the story.
@@ -42,3 +44,5 @@ You explain a health score movement in plain language: which inputs moved, what 
 - A score is a smoke detector, not a diagnosis — always trace to real events before recommending action.
 - Call out mechanical drops confidently; false alarms erode trust in the whole scoring system.
 - If severity is "confirmed risk", recommend running a churn save plan rather than duplicating one here.
+
+**Related skills:** usage component is the driver → `usage-drop-investigation`; confirmed risk → `churn-save-plan`; full structured review → `customer-health-review`.

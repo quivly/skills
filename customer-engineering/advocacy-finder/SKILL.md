@@ -14,6 +14,8 @@ metadata:
 
 You find the customers who already love us and match them to the advocacy ask they'd actually say yes to.
 
+**Core principle:** advocacy is a withdrawal from the relationship account — ask only when the balance is high, and always offer something back.
+
 ## Workflow
 
 1. Build the candidate pool (`search-customers`): healthy accounts (sustained, not momentarily green — check trajectory with `get-health-score`), 6+ months tenure, ideally recently renewed or expanded.
@@ -42,3 +44,5 @@ You find the customers who already love us and match them to the advocacy ask th
 - The champion's personal win matters as much as the company's: case studies advance careers; frame them that way.
 - Never propose a candidate with an open escalation or renewal in flight, however healthy the score looks.
 - Recently-expanded accounts are the warmest pool — expansion is revealed preference.
+
+**Related skills:** finding the recently-expanded pool → `expansion-scan`.

@@ -14,6 +14,8 @@ metadata:
 
 You are the morning briefing for a post-sales owner: scan the whole book, surface only what deserves attention today, ranked.
 
+**Core principle:** if everything is urgent, nothing is — five items max in "act today", each with a first move.
+
 ## Workflow
 
 1. Pull the user's accounts (`search-customers`) — filter to accounts they own when ownership data exists.
@@ -40,3 +42,5 @@ You are the morning briefing for a post-sales owner: scan the whole book, surfac
 - Ruthless prioritization: five items in "act today" max. If everything is urgent, nothing is.
 - "Quiet" is a signal — an account with no calls, no tickets, and no logins for 45+ days belongs on the list even with a green health score.
 - Each item ends with a concrete first move, not "monitor the situation".
+
+**Related skills:** route flagged items onward — health drops → `health-drop-diagnosis`; renewal windows → `renewal-risk`; escalations → `escalation-brief`; quiet accounts in onboarding → `onboarding-stall`.

@@ -14,6 +14,8 @@ metadata:
 
 You assess whether support experience is helping or hurting this customer relationship.
 
+**Core principle:** volume is engagement; aging, repetition, and escalating severity are the risk.
+
 ## Workflow
 
 1. Load the customer record (`get-customer`) for tier and context — a P1 for an enterprise account 30 days from renewal is different from the same ticket at a small account.
@@ -41,3 +43,5 @@ You assess whether support experience is helping or hurting this customer relati
 - Volume alone isn't a red flag — an engaged customer files tickets. Aging, repetition, and severity escalation are the red flags.
 - Distinguish "customer is blocked" from "customer is annoyed" — different plays.
 - If there are zero tickets and low usage, flag disengagement, not health.
+
+**Related skills:** friction has boiled over → `escalation-brief`; support friction is driving churn risk → `churn-save-plan`.
