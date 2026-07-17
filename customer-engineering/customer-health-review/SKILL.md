@@ -2,10 +2,12 @@
 name: customer-health-review
 description: Performs a structured customer health review using usage data, support interactions, renewal signals, and stakeholder sentiment. Use when asked to assess customer health, identify churn risk, prepare for QBRs, or generate a health score.
 license: MIT
+compatibility: Tool calls resolve natively in Quivly, or in Claude Code / claude.ai / any MCP-enabled agent via the Quivly MCP connector. Without tools, the skill degrades to a guided manual workflow.
 metadata:
   author: quivly
   version: "1.0"
-  category: customer-success
+  category: customer-engineering
+  quivly-tools: health.get-health-score health.get-insights platform-data.get-usage platform-data.search-tickets platform-data.get-contracts customer-data.get-contacts
 ---
 
 # Customer Health Review
