@@ -46,15 +46,21 @@ See the [Agent Skills documentation](https://agentskills.io) for client-specific
 ## Repository Structure
 
 ```
-├── customer-success/     # Health scoring, churn signals, QBRs
-├── expansion/            # Playbooks for growth and upsell
-├── technical-onboarding/ # Implementation and technical workflows
-├── communications/       # Executive updates, stakeholder updates
-├── analysis/             # Data interpretation and reporting
-└── template/             # Starter template for new skills
+├── customer-engineering/  # 21 skills: account intelligence, meeting prep,
+│                          # health & risk, renewals, escalations, growth
+└── template/              # Starter template for new skills
 ```
 
-Each skill is a self-contained folder with a `SKILL.md` file (plus optional `scripts/`, `references/`, `assets/`).
+Each skill is a self-contained folder with a `SKILL.md` file. See [customer-engineering/README.md](customer-engineering/README.md) for the full catalog organized by usage tier (daily drivers → weekly rhythms → lifecycle-triggered → quarterly/growth).
+
+## How tool compatibility works
+
+Every skill separates two layers so the same file runs everywhere:
+
+- **The body** references tools by capability name — "load the customer record (`get-customer`)". Any agent with equivalent tools executes it; agents without tools fall back to asking the user for the data.
+- **`metadata.quivly-tools`** carries exact Quivly tool-catalog IDs (space-separated). Importing the repo into Quivly attaches the right tools automatically. Other platforms ignore this key, per the Agent Skills spec.
+
+To run these skills in **Claude Code, claude.ai, or any MCP-enabled agent**, connect the [Quivly MCP connector](https://quivly.ai) — its tool names map 1:1 to the capability names used in skill bodies.
 
 ## Creating a New Skill
 
@@ -71,9 +77,12 @@ Edit `SKILL.md`:
 name: my-new-skill
 description: Clear description of what this skill does and when an agent should use it. Include trigger keywords.
 license: MIT
+compatibility: Tool calls resolve natively in Quivly, or via the Quivly MCP connector in any MCP-enabled agent.
 metadata:
   author: quivly
   version: "1.0"
+  category: customer-engineering
+  quivly-tools: customer-data.get-customer communication.search-calls
 ---
 
 # My New Skill
